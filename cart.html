@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <section id="header">
+        <a href="#"><img src="/img/bg/logo2.png" class="logo" alt=""></a>
+        <div class="ulsection">
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a class="active" href="cart.html" id="lg-bag"><i class="fa-solid fa-bag-shopping"></i></a></li>
+                <li><a href="#" id="close"><i class="fa-solid fa-xmark"></i></a></li>
+            </ul>
+        </div>
+        <div id="mobile">
+            <a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a>
+            <i id="bar" class="fa-solid fa-bars"></i>
+        </div>
+    </section>
+
+    <section id="cart-header">
+        <h2>#add_to_cart</h2>
+        <p>Drop your products in the cart and have them at your doorstep!</p>
+    </section>
+
+    <section id="cart" class="section-p1">
+        <div class="cart-items">
+            <table width="100%">
+                <thead>
+                    <tr>
+                        <td>Remove</td>
+                        <td>Image</td>
+                        <td>Product</td>
+                        <td>Price</td>
+                        <td>Quantity</td>
+                        <td>Subtotal</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <div class="cart-row">
+                        <tr>
+                            <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                            <td><img src="/img/products/product11.jpg" alt=""></td>
+                            <td>Women's Fashion Tops</td>
+                            <td class="cart-price">$85.00</td>
+                            <td class="cart-quantity"><input class="cart-quantity-input" type="number" value="1"></td>
+                            <td>$85.00</td>
+                        </tr>
+                    </div>
+                    <div class="cart-row">
+                        <tr>
+                            <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                            <td><img src="/img/products/product14.jpg" alt=""></td>
+                            <td>Women's Fashion Trousers</td>
+                            <td class="cart-price">$85.00</td>
+                            <td class="cart-quantity"><input class="cart-quantity-input" type="number" value="1"></td>
+                            <td>$85.00</td>
+                        </tr>
+                    </div>
+                    <div class="cart-row">
+                        <tr>
+                            <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                            <td><img src="/img/products/product18.jpg" alt=""></td>
+                            <td>Men's Fashion Shirt</td>
+                            <td class="cart-price">$59.00</td>
+                            <td class="cart-quantity"><input class="cart-quantity-input" type="number" value="1"></td>
+                            <td>$59.00</td>
+                        </tr>
+                    </div>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <section id="cart-add" class="section-p1">
+        <div id="coupon">
+            <h3>Apply Coupon</h3>
+            <div>
+                <input type="text" placeholder="Enter your coupon">
+                <button>Apply</button>
+            </div>
+        </div>
+
+        <div id="subtotal">
+            <h3>Cart Total</h3>
+            <table>
+                <tr>
+                    <td>Cart Subtotal</td>
+                    <td class="cart-total-price">$229</td>
+                </tr>
+                <tr>
+                    <td>Shipping</td>
+                    <td>Free</td>
+                </tr>
+                <tr>
+                    <td><strong>Total</strong></td>
+                    <td class="cart-total-price"><strong>$229</strong></td>
+                </tr>
+            </table>
+
+            <button>Proceed to checkout</button>
+        </div>
+    </section>
+
+    <footer class="section-p1">
+        <div class="column">
+            <img src="/img/bg/logo2.png" alt="" class="logo1">
+            <h4>Contact</h4>
+            <p><strong>Address: </strong>123 Grove Street Cityville, Countryland 56789</p>
+            <p><strong>Phone: </strong>(555) 123-4567</p>
+            <p><strong>Hours: </strong>10:00 - 18.00, Mon - Sat</p>
+            <div class="follow">
+                <h4>Follow Us</h4>
+                <div class="icon">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-pinterest-p"></i>
+                    <i class="fab fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="column">
+            <h4>About</h4>
+            <a href="#">About Us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms and Conditions</a>
+            <a href="#">Contact Us</a>
+        </div>
+
+        <div class="column column-2">
+            <h4>My Account</h4>
+            <a href="#">Sign In</a>
+            <a href="#">View Cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Help</a>
+        </div>
+
+        <div class="column install">
+            <h4>Install App</h4>
+            <p>From App Store or Google Play</p>
+            <div class="row">
+                <img src="/img/footer/app.jpg" alt="">
+                <img src="/img/footer/play.jpg" alt="">
+            </div>
+            <p>Secured Payment Gateway</p>
+            <img src="/img/footer/pay.png" alt="">
+        </div>
+
+        <div class="copyright">
+            <p>&copy; NOVABAY E-commerce Website. All rights reserved!</p>
+        </div>
+    </footer>
+
+    <script>
+        var removeCartItemsButton = document.getElementsByClassName('fa-times-circle')
+        console.log(removeCartItemsButton)
+        for (var i = 0; i < removeCartItemsButton.length; i++) {
+            var button = removeCartItemsButton[i]
+            button.addEventListener('click', function(event) {
+                var buttonClicked = event.target
+                buttonClicked.parentElement.parentElement.parentElement.remove()
+            })
+        }
+
+        function updateCartTotal() {
+            var cartItemContainer = document.getElementsByClassName('cart-items')[0]
+            var cartRows = cartItemContainer.getElementsByClassName('cart-row')
+            for (var i = 0; i < cartRows.length; i++) {
+                var cartRow = cartRows[i]
+                var priceElement = cartRow.getElementsByClassName('cart-price')[0]
+                var quantityElement = cartRow.getElementsByClassName('cart-quantity-input')[0]
+                var price = parseFloat(priceElement.innerText.replace('$', ''))
+                var quantity = quantityElement.value
+                total = total + (price * quantity)
+            }
+            document.getElementsByClassName('cart-total-price')[0].innerText = total
+        }
+    </script>
+</body>
+</html>
